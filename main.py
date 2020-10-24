@@ -20,7 +20,7 @@ parser.add_argument('-i', '--infile', help='log file', default='git-data.txt',
                     dest='infile')
 parser.add_argument('-o', '--outfile', help='destination file',
                     default='gitBook.html', dest='outfile')
-parser.add_argument('-n', '--reponame', default='RepoName', dest='reponame',
+parser.add_argument('-n', '--reponame', default='Last week commit in vaas-deploy', dest='reponame',
                     help='Repository name')
 
 args = parser.parse_args()
